@@ -1,0 +1,35 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "momento-especial-corp", email = "momentoespecial@gmail.com"},
+]
+dependencies = [
+    "django>=4.2.4",
+    "python-magic>=0.4.27",
+    "Pillow>=10.0.0",
+    "djangorestframework>=3.14.0",
+    "django-cors-headers>=4.2.0",
+    "djangorestframework-simplejwt>=5.2.2",
+    "setuptools>=68.0.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
+
+[[tool.pdm.autoexport]]
+filename = "requirements.txt"
+without-hashes = "true"
+
